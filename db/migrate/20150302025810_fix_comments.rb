@@ -1,5 +1,5 @@
 class FixComments < ActiveRecord::Migration
   def change
-    rename_column :comments, :autho_name, :author_name
+    rename_column :comments, :author_name, :author_name
   end
 end
